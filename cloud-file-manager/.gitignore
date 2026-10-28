@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+
+# Testing and cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local storage and simulated device logs
+local_storage/
+iot_logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp

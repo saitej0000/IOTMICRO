@@ -1,0 +1,6 @@
+{
+  "name": "Cloud-Based File Handling & MD5 Deduplication",
+  "description": "Cloud-Based Improved File Handling and Duplication Removal Using MD5 for IoT and Cloud Virtualization micro project with Supabase cloud integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
