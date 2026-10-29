@@ -18,12 +18,21 @@ requests==2.32.3
 pydantic==2.10.6
 `);
 
-  root.file('.env.example', `# Supabase Cloud Configuration
-SUPABASE_URL=https://your-project-id.supabase.co
-SUPABASE_KEY=your-supabase-anon-key-here
+  root.file('.env', `# Supabase Cloud Configuration
+SUPABASE_URL=https://urndmxoqyyjjifrsrvno.supabase.co
+SUPABASE_KEY=sb_publishable_Rhqcuv-fxEdcTaWlvh65Hw_P-eukDwh
 SUPABASE_BUCKET=files
-APP_MODE=local
-MAX_FILE_SIZE_MB=25
+APP_MODE=cloud
+MAX_FILE_SIZE_MB=50
+ENABLE_SHA256_FALLBACK=false
+`);
+
+  root.file('.env.example', `# Supabase Cloud Configuration
+SUPABASE_URL=https://urndmxoqyyjjifrsrvno.supabase.co
+SUPABASE_KEY=sb_publishable_Rhqcuv-fxEdcTaWlvh65Hw_P-eukDwh
+SUPABASE_BUCKET=files
+APP_MODE=cloud
+MAX_FILE_SIZE_MB=50
 ENABLE_SHA256_FALLBACK=false
 `);
 
